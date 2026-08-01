@@ -1,7 +1,30 @@
 aid: plotlogic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plotlogic.png
 name: Plotlogic
-description: Plotlogic is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Plotlogic is a mining technology company that builds AI-driven sensing systems
+  for real-time ore and material characterisation. Its flagship product,
+  OreSense, scans rock in open-pit, stockpile, and underground mining operations
+  and delivers decision-ready quantitative mineralogy in under 15 minutes,
+  compared with more than an hour for traditional laboratory assay methods. The
+  hardware is engineered for harsh mining environments and integrates into
+  existing operational workflows so mines can reduce waste, improve grade
+  control, and make faster material-routing decisions. Plotlogic is
+  headquartered in Zillmere, Queensland, Australia, and is backed by the
+  deep-tech venture firm DCVC. Customer access is delivered through an
+  enterprise client platform rather than a public developer API; there is no
+  published developer program, SDK, or API documentation at this time.
 url: https://raw.githubusercontent.com/api-evangelist/plotlogic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Mining
+- Artificial Intelligence
+- Sensors
+- Material Characterisation
+- Geoscience
+- Industrial
+- Machine Learning
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/plotlogic-domain-security.yml
+- type: Website
+  url: https://plotlogic.com
+- type: Blog
+  url: https://plotlogic.com/insights/
+- type: Support
+  url: https://plotlogic.com/contact-us/
+- type: PrivacyPolicy
+  url: https://plotlogic.com/privacy-policy/
+- type: Login
+  url: https://platform.plotlogic.com/
+apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
