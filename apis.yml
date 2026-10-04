@@ -54,7 +54,7 @@ tags:
 - Material Characterisation
 - Geoscience
 - Industrial
-- Machine-Learning
+- Machine Learning
 tags_raw:
 - Company
 - Mining
@@ -64,6 +64,7 @@ tags_raw:
 - Geoscience
 - Industrial
 - Machine Learning
+- Machine-Learning
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
